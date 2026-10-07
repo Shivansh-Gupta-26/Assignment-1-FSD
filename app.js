@@ -17,6 +17,15 @@ server.listen(PORT, () => {
 });
 
 
+// This is my Output:-
+
+// PS C:\Users\shiva\Projects\Node\Assignment\Assignment-1-FSD> node --env-file=.env app.js
+// Server started successfully
+// PORT: 5000
+// DATABASE_NAME: collegeDB
+// APP_MODE: development
+
+
 // ### Theory
 
 // Environment variables are used to store configuration values outside the source code. In Node.js, we can access these variables using the built-in `process.env` object.
